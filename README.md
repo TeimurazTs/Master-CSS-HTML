@@ -1,84 +1,56 @@
-### Homework #1
+### Homework #2
 
-In this homework you should create your own photo gallery.
+In this homework you should create your own blog.
 
-For this homework you should use HTML5 tags.
+**Pages**:
 
-Don't use css.
+- Home page: /index.html
+- Acticles page: /sport/index.html
+- Article page: /sport/last-game-arsenal.html
 
-**Page structure**:
 
-- **Main**: /index.html
-- **Category**:
-  - /cars/index.html
-  - /dogs/index.html
-  - /cats/index.html
-- **Single Image**:
-  - /cars/car-1.html
-  - /dogs/dog-1.html
-  - /cats/cat-1.html
 
-**Folder Structure**
+**Folder structure**
 
 - index.html
-- cars
+- sport
   - index.html
-  - сar-1.html
-  - сar-2.html
-  - сar-3.html
-  - сar-4.html
-  - сar-5.html
-  - сar-6.html
-  - images
-    - car-1.jpg
-    - car-2.jpg
-    - car-3.jpg
-    - car-4.jpg
-    - car-5.jpg
-    - car-6.jpg
-- dogs
-  - index.html
-  - dog-1.html
-  - dog-2.html
-  - dog-3.html
-  - dog-4.html
-  - dog-5.html
-  - dog-6.html
-  - images
-    - dog-1.jpg
-    - dog-2.jpg
-    - dog-3.jpg
-    - dog-4.jpg
-    - dog-5.jpg
-    - dog-6.jpg
-- cats
-  - index.html
-  - cat-1.html
-  - cat-2.html
-  - cat-3.html
-  - cat-4.html
-  - cat-5.html
-  - cat-6.html
-  - images
-    - cat-1.jpg
-    - cat-2.jpg
-    - cat-3.jpg
-    - cat-4.jpg
-    - cat-5.jpg
-    - cat-6.jpg
+    - last-game-arsenal.html
+    
+    - media
+      - arsenal.jpg
 
-On `Main` page you should use not less than 3 different images for each category.
 
-On `Main` page you should have categories links.
 
-You should create not less than 3 categories. Don't forget about categorie titles.
+**Home page structure:**
 
-On `Category` page you should use not less than 6 images.
+- Main
+  - List of categories
+    - Each category has links to 2 articles
 
-On `Category` page you should have link to the main page and each image should be a link to `Single Image` page.
 
-The height for the image on `Main` page should be `200`
 
-The height for the image on `Category` page should be `200`
+**Articles page structure:**
 
-The height for the image on `Single Image` page should be like as in original image.
+- Main
+  - Link to Home page
+  - List of articles
+
+
+
+**Article page structure:**
+
+- Main
+  - Link to Home page
+  - Link to Category page
+  - Article header
+  - Picture or video or audio
+  - Text
+
+
+
+On `Home` page you should add not less than 2 different categories. Each category has list of links to 2 articles. `Articles` title should be a link to the page with the list of all acticles for selected category.
+
+On `Articles` page you should add not less than 3 different articles for each category. Each article item has header with the name of article as link. Link on the header redirects to `Article` page with the detail information about selected article.
+
+On `Article` page you should show detail information for each article. 
