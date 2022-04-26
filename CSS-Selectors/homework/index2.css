@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(139, 206, 184, 0.92);
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 100px;
+  gap: 30px;
+}
+
+p {
+  margin-left: 30px;
+}
+
+img {
+  border-radius: 10px;
+}
