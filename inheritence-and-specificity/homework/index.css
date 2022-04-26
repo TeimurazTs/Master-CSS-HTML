@@ -1,0 +1,27 @@
+.main-block {
+  width: 600px;
+  margin: 200px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button {
+  width: 100px;
+  padding: 10px;
+  color: #444;
+  border: 2px solid #444;
+}
+
+button:nth-child(1) {
+  color: white;
+  background-color: rgb(116, 116, 190);
+}
+
+button:nth-child(3) {
+  border: 2px dashed #444;
+}
+
+button:nth-child(4) {
+  color: red;
+  background-color: rgb(227, 227, 200);
+}
