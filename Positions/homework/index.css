@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  padding: 15px;
+  position: absolute;
+  top: 10%;
+  left: 60%;
+  border: 2px solid #444;
+  color: #444;
+  width: 350px;
+}
+
+.notification {
+  float: left;
+  color: rgb(18, 17, 17);
+  margin-bottom: 15px;
+}
+
+.float {
+  float: right;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}

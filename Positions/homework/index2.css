@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('../homework/images/swimmer-image.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.header-first {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  padding-left: 35px;
+  background-color: white;
+  font-size: 108px;
+  color: rgb(56, 9, 9);
+  text-align: right;
+}
+
+.header-second {
+  position: absolute;
+  top: 20%;
+  left: 20.5%;
+  font-size: 108px;
+  color: rgb(255, 255, 255);
+}
+
+.arrow-left {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 50%;
+  left: 2%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+}
+
+.arrow-right {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 50%;
+  right: 2%;
+  transform: translate(50%, -50%);
+  background-color: #fff;
+}
+
+.dummy-text {
+  position: absolute;
+  top: 37%;
+  left: 13%;
+  color: #fff;
+  font-size: 44px;
+  width: 45%;
+}
+
+.sport {
+  color: #fff;
+  font-size: 43px;
+  background-color: rgb(235, 119, 17);
+  padding: 3px 10px;
+  position: absolute;
+  bottom:2%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
