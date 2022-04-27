@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(227, 227, 147);
+}
+
+main {
+  width: 315px;
+  margin: 100px auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.cube {
+  border: 1px solid #444;
+  background-color: rgba(83, 215, 224, 0.842);
+}
+
+.cube-1 {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(218, 32, 32);
+}
+
+.cube-2 {
+  width: 165px;
+  height: 150px;
+}
+
+.cube-3 {
+  height: 75px;
+  width: 150px;
+}
+
+.cube-4 {
+  height: 75px;
+  width: 165px;
+}
+
+.cube-5 {
+  width: 30px;
+  height: 150px;
+  background-color: rgb(255, 240, 78);
+}
+
+.cube-6 {
+  width: 120px;
+  height: 150px;
+}
+
+.cube-7 {
+  width: 110px;
+  height: 135px;
+  background-color: rgb(74, 30, 146);
+}
+
+.cube-8 {
+  width: 55px;
+  height: 150px;
+}
+
+.cube-9 {
+  width: 110px;
+  height: 15px;
+}
+
+.fl-right {
+  float: right;
+}
+
+.fl-left {
+  float: left;
+}
