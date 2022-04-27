@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 960px;
+  margin: 30px auto;
+}
+
+div div {
+  background-color: rgba(35, 108, 139, 0.365);
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.cube-first-row {
+  width: 220px;
+  height: 220px;
+}
+
+.cube-second-row {
+  width: 100px;
+  height: 100px;
+}
+
+.cube-third-fourth-row-big {
+  width: 700px;
+  height: 220px;
+}
+
+.cube-third-fourth-row-small {
+  width: 220px;
+  height: 220px;
+}
+
+.cube-fifth-row {
+  width: 460px;
+  height: 220px;
+}
+
+.fl-left {
+  float: left;
+}
+
+.fl-right {
+  float: right;
+}
