@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 960px;
+  margin: 50px auto;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.container div {
+  display: flex;
+  gap: 20px;
+}
+
+.container div div {
+  background-color: #333;
+}
+
+.cube-big {
+  width: 220px;
+  height: 220px;
+}
+
+.cube-small {
+  width: 100px;
+  height: 100px;
+}
+
+.cube-reverse-big {
+  width: 700px;
+  height: 220px;
+}
+
+.cube-reverse-small {
+  width: 220px;
+  height: 220px;
+}
+
+.cube-equal {
+  width: 460px;
+  height: 220px;
+}
