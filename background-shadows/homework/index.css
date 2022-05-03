@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-image: linear-gradient(rgba(100, 100, 100, 0.05), rgba(0, 0, 0, 1)), url("../homework/assets/Image1.png");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-div {
+  width: 60%;
+}
+
+.image {
+  width: 100%;
+}
